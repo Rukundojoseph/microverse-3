@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body> 
+    <main id="main">
+      <section class="form_section">
+        <h1 id="title">Microverse Survey Form</h1>
+        <p id="description">
+          Thank you for taking the time to help us improve the platform!
+        </p>
+        
+          <form id="survey-form">
+            <label id="name-label">Name</label>
+            <input
+              type="text"
+              id="name"
+              required
+              placeholder="enter your name"
+            />
+            <label id="email-label">email</label>
+
+            <input type="email" id="email" placeholder=".. email" required />
+            <label id="number-label">age</label>
+            <input
+              type="number"
+              id="number"
+              min="13"
+              max="75"
+              placeholder="age"
+            />
+            <select id="dropdown">
+              <option>sex</option>
+              <option value="male">male</option>
+              <option value="female">female</option></select>
+              <div class="radio-input">
+                <label> Definitely<input type="radio" value="definitely" name="radio" />
+                </label>
+                <label>
+                  Maybe
+                  <input type="radio" value="maybe" name="radio" />
+                </label>
+              </div>
+            </select>
+            <div>
+              <label id="cb1">
+                Front-end Projects
+                <input type="checkbox" value="front-end-project" name="cb" />
+              </label>
+              <label id="cb2">
+                Back-end Projects
+                <input type="checkbox" value="back-end-project" name="cb" />
+              </label>
+            </div>
+            <textarea placeholder="add comment"></textarea>
+            <input type="submit" id="submit" />
+          </form>
+        
+      </section>
+    </main>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <script src="js/index.js"></script>
+  </body>
+</html>

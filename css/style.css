@@ -1,0 +1,49 @@
+html,
+body {
+  background: #eee;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#main {
+  margin: 10px;
+  padding: 10px;
+  background: #fff;
+}
+
+#title {
+  text-align: center;
+  padding: 10px;
+  color: #6f23ff;
+  font-weight: bold;
+}
+
+#description {
+  font-size: 14px;
+  text-align: center;
+}
+
+
+#survey-form {
+  margin: 0 20%;
+  background-color: #dddd;
+  border-radius: 5px;
+}
+#email,
+#name,
+#age {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #6f23ff;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.radio-input{
+  width: 100%;
+  display: block;
+
+  box-sizing: border-box;
+}
