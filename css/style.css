@@ -8,8 +8,7 @@ body {
 }
 
 #main {
-  margin: 10px;
-  padding: 10px;
+  margin: 10px 0;
   background: #fff;
 }
 
@@ -18,6 +17,7 @@ body {
   padding: 10px;
   color: #6f23ff;
   font-weight: bold;
+  font-size: 2rem;
 }
 
 #description {
@@ -25,15 +25,21 @@ body {
   text-align: center;
 }
 
-
 #survey-form {
   margin: 0 20%;
   background-color: #dddd;
   border-radius: 5px;
 }
+.form-group {
+  padding: 5px 15px;
+  margin-bottom: 5px;
+}
 #email,
 #name,
-#age {
+#age,
+#number,
+#dropdown,
+#submit {
   width: 100%;
   padding: 5px;
   margin-bottom: 5px;
@@ -41,9 +47,20 @@ body {
   border-radius: 5px;
   box-sizing: border-box;
 }
-.radio-input{
+.radio-input {
   width: 100%;
   display: block;
 
   box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: 10px;
+}
+
+#submit {
+  background: #6f23ff;
+  color: #fff;
 }
